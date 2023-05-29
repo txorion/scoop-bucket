@@ -1,0 +1,29 @@
+{
+    "version": "7.41",
+    "description": "HW encoder (QSV) of Intel",
+    "homepage": "https://github.com/rigaya/QSVEnc",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/7.41/QSVEncC_7.41_x64.7z",
+            "hash": "cec4f7cef3deebe27ec45f899ea8e06dcd5fff641cbdf865217dab453b9f44c9",
+            "bin": "QSVEncC64.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/7.41/QSVEncC_7.41_Win32.7z",
+            "hash": "f515cb6d3c2793f0914409e6161c82f197f304389ed6f17095c447dc6f4e7162",
+            "bin": "QSVEncC.exe"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rigaya/QSVEnc/releases/download/$version/QSVEncC_$version_x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/rigaya/QSVEnc/releases/download/$version/QSVEncC_$version_Win32.7z"
+            }
+        }
+    }
+}
