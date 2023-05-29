@@ -17,3 +17,4 @@ scoop install <manifest>.
 - [NVEnc](https://github.com/rigaya/NVEnc) : HW encoder (NVENC) of NVIDIA
 - [QSVEnc](https://github.com/rigaya/QSVEnc) : HW encoder (QSV) of Intel
 - [VCEEnc](https://github.com/rigaya/VCEEnc) : HW encoder (VCE) of AMD
+- [Mery(beta)](https://www.haijin-boys.com/software/mery): Text editor
